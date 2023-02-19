@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card1{
+  background-image: url("https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_FMjpg_UX1000_.jpg");
+}
+.card2{
+  background-image: url("https://www.fluminalis.com/galleries_watermark/john-wick-chapter-4-2023-movie-announcement-7338835-en-max.jpg");
+}
+.card3{
+  background-image: url("https://cdn.vanguardngr.com/wp-content/uploads/2022/10/Black-Panther.jpg");
+}
+.card4{
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/f/f2/Fast_X_poster.jpg");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main{
+  /* height: 100vh; */
+  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("https://cdn.wallpapersafari.com/76/72/va0KdC.jpg");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sec{
+  padding-top: 10rem;
+  /* background: white; */
+  /* overflow-y: auto; */
 }
